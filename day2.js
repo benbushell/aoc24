@@ -1,5 +1,7 @@
 const fs = require('fs');
 
+console.log('This is a test')
+
 fs.readFile('./day2_puzzle.txt', (err, data) => {
     if (err) throw err;
     console.log(data.toString())
